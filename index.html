@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
+		<title>Homepage | technicians-dashboard</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+		<link href="css/main.34e89fc082bc4415b8ea.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="header flex flex-column justify-content-between align-items-center">
+			<button class="hamburger z-index-2 align-self-start animate" aria-controls="dashboard" aria-expanded="false">
+			  	<span class="sr-only">Open/close dashboard</span>
+			  	<span class="hamburger__box">
+			    	<span class="hamburger__inner"></span>
+			  	</span>
+			</button>
+			<div class="login-panel flex z-index-2">
+				<button class="login-panel__notifications" type="button">
+					<span class="sr-only">Notifications</span>
+					<span class="b-img b-img_notifications"></span>
+				</button>
+				<button class="login-panel__options flex align-items-center" type="button">
+					<span class="login-panel__icon b-img b-img_avatar"></span>
+					<span class="login-panel__name text-xs font-weight-bold will-change-transform">Belle</span>
+					<span class="login-panel__arrow"></span>
+				</button>
+			</div>
+		</div>
+		<main class="content px-1">			
+			<div class="flex">				
+				<div id="dashboard" class="dashboard animate z-index-2 will-change-transform">					
+					<div class="dashboard__wrapper">
+						<div class="dashboard__top flex align-items-center pt-1">
+							<span class="dashboard__logo b-img b-img_logo mr-2"></span>
+							<h1 class="dashboard__title flex flex-column">
+								<span class="dashboard__title-top title-size-4">Technician</span>
+								<span class="dashboard__title-bottom text-size-2">At Home</span>
+							</h1>
+						</div>
+						<a class="dashboard__arrow arrow flex align-items-center justify-content-center z-index-1" href="#main-site">
+							<span class="sr-only">Back to the main page</span>
+							<span class="arrow__inner"></span>
+						</a>
+						<div class="dashboard__list" role="tablist" aria-label="Settings dashboard">
+							<button class="dashboard__button text-size-1 flex align-items-center" type="button" role="tab" aria-selected="false" aria-controls="dashboard-tab" tabindex="-1">
+									<span class="b-img b-img_dashboard mr-2"></span>
+									Dashboard
+							</button>
+							<button class="dashboard__button text-size-1 flex align-items-center" type="button" role="tab" aria-selected="true" aria-controls="product&services-tab">
+									<span class="b-img b-img_product-services mr-2"></span>
+									Product & Services							
+							</button>
+							<button class="dashboard__button text-size-1 flex align-items-center" type="button" role="tab" aria-selected="false" aria-controls="technicians-tab" tabindex="-1">
+									<span class="b-img b-img_technicians mr-2"></span>
+									Technicians						
+							</button>
+							<button class="dashboard__button text-size-1 flex align-items-center" type="button" role="tab" aria-selected="false" aria-controls="reports-tab" tabindex="-1">
+									<span class="b-img b-img_reports mr-2"></span>
+									Reports							
+							</button>
+							<button class="dashboard__button text-size-1 flex align-items-center" type="button" role="tab" aria-selected="false" aria-controls="feedbacks-tab" tabindex="-1">									
+									<span class="b-img b-img_feedbacks mr-2"></span>
+									Feedbacks
+									<span class="dashboard__number">5</span>
+							</button>
+							<button class="dashboard__button text-size-1 flex align-items-center" type="button" role="tab" aria-selected="false" aria-controls="history-tab" tabindex="-1">
+									<span class="b-img b-img_history mr-2"></span>
+									History							
+							</button>
+						</div>
+						<span class="dashboard__name text-size-1 flex" aria-hidden="true">
+							<span class="b-img b-img_settings"></span>
+							Settings
+						</span>
+					</div>	
+				</div>
+				<div class="col-lg-10-custom z-index-1">										
+					<div role="tabpanel" id="dashboard-tab">	
+						 <h2 class="title-size-2 font-weight-bold">Dashboard</h2>				
+					</div>
+					<div class="d-block" role="tabpanel" id="product&services-tab">		
+						<h2 class="content__title title-size-2 font-weight-bold">Product & Services</h2>
+						<div class="flex flex-wrap">
+							<div class="col-lg-8-custom border mb-2 px-2">
+								<h3 class="title-size-4 font-weight-bold mt-1">About Services</h3>
+								<ul class="flex flex-wrap mx-n1">
+								 	<li class="col-sm-6 col-md-3 mb-2 px-1">
+								 		<a class="card" href="#">
+								 			<img class="img" src="img/about_services/carpenter.8bcede06f24ed276fe9fdc73e28ae4f2.jpg" alt="">
+								 			<div class="background background_gradient"></div>
+								 			<div class="card__content">
+								 				<span class="card__profession text-size-4">Carpenter</span>
+								 				<span class="text-size-2">€45</span>
+								 			</div>								 			
+								 		</a>
+								 	</li>
+								 	<li class="col-sm-6 col-md-3 mb-2 px-1">
+								 		<a class="card" href="#">
+								 			<img class="img" src="img/about_services/ac_service_&_repair.d1c5dbe1077d9c722aa46d6a436ee0ca.jpg" alt="">
+								 			<div class="background background_gradient"></div>
+								 			<div class="card__content">
+								 				<span class="card__profession text-size-4">Ac Service & repair</span>
+								 				<span class="text-size-2">€25</span>
+								 			</div>
+								 		</a>
+								 	</li>
+								 	<li class="col-sm-6 col-md-3 mb-2 px-1">
+								 		<a class="card" href="#">
+								 			<img class="img" src="img/about_services/kitchen_deep_cleaning.65aa27244b68658863d8482931d5b898.jpg" alt="">
+								 			<div class="background background_gradient"></div>
+								 			<div class="card__content">
+								 				<span class="card__profession text-size-4">Kitchen Deep Cleaning</span>
+								 				<span class="text-size-2">€30</span>
+								 			</div>
+								 		</a>
+								 	</li>
+								 	<li class="col-sm-6 col-md-3 mb-2 px-1">
+								 		<a class="card" href="#">
+								 			<img class="img" src="img/about_services/electrician.2048e723d3677f62d1f5fc0659a7228c.jpg" alt="">
+								 			<div class="background background_gradient"></div>
+								 			<div class="card__content">
+								 				<span class="card__profession text-size-4">Electrician</span>
+								 				<span class="text-size-2">€50</span>
+								 			</div>
+								 		</a>
+								 	</li>
+								 </ul>
+								 <ul class="text-center flex flex-wrap mx-n1">
+									<li class="col-sm-6 col-md-3 mb-2 px-1">								
+										<a class="card" href="#">
+											<img class="img img_blur" src="img/about_services/sofa_cleaning.268a75f0a1938568955c9f6c26eb9d7e.jpg" alt="">
+											<div class="background background_blur"></div>
+											<p class="card__category text-size-1">Sofa Cleaning</p>
+										</a>
+									</li>
+									<li class="col-sm-6 col-md-3 mb-2 px-1">								
+										<a class="card" href="#">
+											<img class="img img_blur" src="img/about_services/bathroom_cleaning.643be2adeaaff0bb004d05160930acca.jpg" alt="">
+											<div class="background background_blur"></div>
+											<p class="card__category text-size-1">Bathroom Cleaning</p>
+										</a>
+									</li>
+									<li class="col-sm-6 col-md-3 mb-2 px-1">								
+										<a class="card" href="#">
+											<img class="img img_blur" src="img/about_services/pest_control.9f6a8c960feeec4085f2eb3538d025fd.jpg" alt="">
+											<div class="background background_blur"></div>
+											<p class="card__category text-size-1">Pest Control</p>
+										</a>
+									</li>
+									<li class="col-sm-6 col-md-3 mb-2 px-1">								
+										<a class="card" href="#">
+											<img class="img img_blur" src="img/about_services/view_all.444539b33dadc78b343af95b40e16ace.jpg" alt="">
+											<div class="background background_blur"></div>
+											<p class="card__category text-size-1">View All</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-4-custom border mb-2 px-2">
+								<div class="flex justify-content-between align-items-center">
+									<h3 class="title-size-4 font-weight-bold mt-1">Total Products</h3>
+									<span class="title-size-1 font-weight-bold"><span class="sr-only">Amount of total products</span> 350</span>
+								</div>
+								<img class="img img_custom" src="img/pie_chart.5faf3a4fd6c95a4a5abcc77673c05119.png" alt="The pie chart showing number of deactivated products which is 65 and activated products which is 285">
+								<div class="flex flex-wrap justify-content-around text-center">
+									<p class="btn btn_activated text-size-2"><span class="dot dot_navy-blue mr-1"></span>Activated</p>
+									<p class="btn btn_activated text-size-2"><span class="dot dot_salmon mr-1"></span>Deactivated</p>
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-wrap mb-1">
+							<div class="col-lg-8-custom border mb-2 px-2 px-max-xs-1">
+								<div class="flex align-items-center justify-content-between px-max-xs-2">
+									<h3 class="title-size-4 font-weight-bold mt-1">Products listing</h3>						
+									<button class="btn btn_filter text-size-2 flex justify-content-between">
+										Filter
+										<span class="b-img b-img_filter"></span>
+									</button>
+								</div>
+								<table class="table">
+									<thead>						
+										<tr class="table__top">
+											<th>
+												Product name
+												<button class="table__button">
+													<span class="sr-only">Filter by Product names</span>
+													<span class="flex flex-column">
+														<span class="triangle-up"></span>
+														<span class="table__triangle triangle-down"></span>
+													</span>
+												</button>
+											</th>
+											<th>Brand name</th>
+											<th>Service</th>
+											<th>Status</th>
+										</tr>
+									</thead>	
+									<tbody>
+										<tr>
+											<td class="checkbox">
+												<input class="checkbox__input" type="checkbox" id="washing_machine">
+												<label class="checkbox__label" for="washing_machine"></label>
+												<span class="checkbox__text">Washing machine</span>
+											</td>
+											<td>Hitachi</td>
+											<td>Repair</td>
+											<td>											
+												<span class="dot dot_green"></span>Activated
+											</td>
+										</tr>
+									</tbody>
+									<tbody>
+										<tr>
+											<td class="checkbox">
+												<input class="checkbox__input" type="checkbox" id="air_conditioner">
+												<label class="checkbox__label" for="air_conditioner"></label>
+												<span class="checkbox__text">Air conditioner</span>
+											</td>
+											<td>LG</td>
+											<td>Installation</td>
+											<td>											
+												<span class="dot dot_red"></span>Deactivated
+											</td>
+										</tr>
+									</tbody>
+									<tbody>
+										<tr>
+											<td class="checkbox">
+												<input class="checkbox__input" type="checkbox" id="smart_tv">
+												<label class="checkbox__label" for="smart_tv"></label>
+												<span class="checkbox__text">Smart TV</span>
+											</td>
+											<td>OnePlus</td>
+											<td>Uninstallation</td>
+											<td>											
+												<span class="dot dot_green"></span>Activated
+											</td>
+										</tr>
+									</tbody>
+									<tbody>
+										<tr>
+											<td class="checkbox">
+												<input class="checkbox__input" type="checkbox" id="water_purifier">
+												<label class="checkbox__label" for="water_purifier"></label>
+												<span class="checkbox__text">Water purifier</span>
+											</td>
+											<td>Kent</td>
+											<td>Repair</td>
+											<td>											
+												<span class="dot dot_green"></span>Activated
+											</td>
+										</tr>
+									</tbody>	
+								</table>											
+							</div>
+							<div class="col-lg-4-custom border mb-2 px-2">
+								<h3 class="title-size-3 font-weight-bold">Add Technicians</h3>
+								<p class="text-size-3">Click on the <a class="link font-weight-bold" href="#">Email</a> & send the magic link to technicians</p>
+								<img class="img img_custom" src="img/technicians.6bdcd9b5b6d29837f0e9d17d3c0e6277.png" alt="">
+							</div>
+						</div>															
+					</div>
+					<div tabindex="0" role="tabpanel" id="technicians-tab">	
+						 <h2 class="title-size-2 font-weight-bold">Technicians</h2>				
+					</div>
+					<div tabindex="0" role="tabpanel" id="reports-tab">	
+						 <h2 class="title-size-2 font-weight-bold">Reports</h2>				
+					</div>
+					<div tabindex="0" role="tabpanel" id="feedbacks-tab">
+						 <h2 class="title-size-2 font-weight-bold">Feedbacks</h2>					
+					</div>
+					<div tabindex="0" role="tabpanel" id="history-tab">	
+						 <h2 class="title-size-2 font-weight-bold">History</h2>				
+					</div>											
+				</div>  	       	 
+		  	</div>				 
+		</main>
+
+		<script src="js/main.4639fa3883e2670f5ffd.js" defer="defer"></script>
+	</body>
+</html>
