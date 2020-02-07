@@ -1,0 +1,62 @@
+$grid-columns:      12;
+$grid-gutter-width: 60px;
+
+$grid-breakpoints: (
+	// Extra small screen / phone
+	xs: 0,
+	// Small screen / phone
+	sm: 400px,
+	// Medium screen / tablet
+	md: 768px,
+	// Large screen / desktop
+	lg: 1065px,
+	// Extra large screen / wide desktop
+	xl: 1271px
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px
+);
+
+/*Colors*/
+
+$black: #000000;
+$white: #ffffff;
+$color-primary: #222222;
+$color-black-light: #2D2D2D;
+$color-navy-blue: #0E1B42;
+$color-light-blue: #4A41B8;
+$color-lighter-blue: #4C52BC;
+
+/*Fonts*/
+
+$font-primary: 'Roboto', sans-serif;
+
+/*Font-size*/
+
+$font-size-xxxxs: 10px;
+$font-size-xxxs: 12px;
+$font-size-xxs: 13px;
+$font-size-xs: 14px;
+$font-size-s: 15px;
+$font-size-m: 16px;
+$font-size-l: 20px;
+$font-size-xl: 22px;
+$font-size-xxl: 26px;
+$font-size-xxxl: 30px;
+
+/*Line-height*/
+
+$line-height-xxxxs: 14px;
+$line-height-xxxs: 15px;
+$line-height-xxs: 16px;
+$line-height-xs: 18px;
+$line-height-s: 19px;
+$line-height-m: 20px;
+$line-height-l: 23px;
+$line-height-xl: 26px;
+$line-height-xxl: 30px;
+$line-height-xxxl: 35px;

@@ -1,0 +1,38 @@
+.col-sm-6 {
+	@include media-breakpoint-up(sm) {
+	    @include make-col(6);
+	}
+}
+
+.col-md-3 {
+	@include media-breakpoint-up(md) {
+	    @include make-col(3);
+	}
+}
+
+.col-lg-4-custom {
+	@include media-breakpoint-up(lg) {	   
+    	flex: 0 0 calc(34% - 20px);
+    	max-width: calc(34% - 20px);
+	}
+}
+
+.col-lg-8-custom {
+	@include media-breakpoint-up(lg) {
+		margin-right: 20px;
+		flex: 0 0 66%;
+    	max-width: 66%;
+	}
+}
+
+.col-lg-10-custom {		
+	@include media-breakpoint-up(xl) {
+		flex: 0 0 81%;
+		max-width: 81%;
+	}
+}
+
+.col-sm-6, .col-md-3, .col-lg-4-custom, .col-lg-8-custom, .col-lg-10-custom {
+	width: 100%;
+	position: relative;
+}

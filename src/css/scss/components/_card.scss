@@ -1,0 +1,30 @@
+.card {
+	color: $white;
+	border-radius: 4px;
+	overflow: hidden;
+	position: relative;
+
+	&:hover {
+		opacity: .8;
+	}
+
+	&__content {		
+		bottom: 11px;
+		left: 10px;
+	}	
+
+	&__category {		
+		margin: 0;
+		width: 100%;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	&, &__profession {		
+		display: block;
+	}		
+
+	&__content, &__category {
+		position: absolute;
+	}	
+}	

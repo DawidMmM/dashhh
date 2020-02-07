@@ -1,0 +1,45 @@
+.checkbox {
+	&__input {
+		display: none;
+	}
+
+	&__input:checked + &__label:after {
+		content: '\2714';
+	    font-size: $font-size-xs;
+	    position: absolute;
+	    top: 0px;
+	    left: 1px;
+	    color: #99a1a7;
+	}
+
+	&__label {
+		margin-right: 0;
+		width: 15px;
+		height: 15px;
+	    background: #FFFFFF;
+		border: 1px solid #E0E0E0;
+		border-radius: 3px;
+	    display: inline-block;
+	    position: relative;	   
+	}
+
+	&__label, &__text {
+		vertical-align: middle;
+	}
+}
+
+@media( min-width:698px ) {
+	.checkbox {
+		&__label {
+			width: 22px;
+			height: 22px;
+			margin-right: 0.9375rem;
+		}
+
+		&__input:checked + &__label:after {
+		    font-size: 17px;
+		    top: 2px;
+		    left: 4px;
+		}		
+	}		
+}

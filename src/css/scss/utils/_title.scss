@@ -1,0 +1,21 @@
+.title {
+	&-size-1 {
+		font-size: $font-size-xxxl;
+		line-height: $line-height-xxxl;
+	}
+
+	&-size-2 {
+		font-size: $font-size-xxl;
+		line-height: $line-height-xxl;
+	}
+
+	&-size-3 {
+		font-size: $font-size-xl;
+		line-height: $line-height-xl;
+	}
+
+	&-size-4 {
+		font-size: $font-size-l;
+		line-height: $line-height-l;
+	}	
+}

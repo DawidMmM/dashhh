@@ -1,0 +1,61 @@
+.b-img {	
+	display: block;	
+	background-repeat: no-repeat;
+	background-position: left;
+
+	&_logo {
+	    width: 37px;
+		height: 38px;
+	    background-image: url(../img/logo/logo.png);	    
+	}
+
+	&_dashboard {	
+		background-image: url(../img/icons/dashboard.png);
+	}
+
+	&_product-services {	
+		background-image: url(../img/icons/product&services.png);
+	}
+
+	&_technicians {	
+		background-image: url(../img/icons/technicians.png);
+	}
+
+	&_reports {	
+		background-image: url(../img/icons/reports.png);
+	}
+
+	&_feedbacks {	
+		background-image: url(../img/icons/feedbacks.png);
+	}
+
+	&_history {	
+		background-image: url(../img/icons/history.png);
+	}
+
+	&_settings {	
+		background-image: url(../img/icons/settings.png);
+	}
+
+	&_avatar {		
+		background-image: url(../img/icons/avatar.png);
+	}
+
+	&_notifications {
+		background-image: url(../img/icons/notifications.png);
+	}
+
+	&_filter {
+		background-image: url(../img/icons/filter.png);
+	}
+
+	&_avatar, &_notifications {
+		width: 40px;
+		height: 40px;
+	}
+
+	&_dashboard, &_product-services, &_technicians, &_reports, &_feedbacks, &_history, &_settings, &_filter {
+		width: 18px;
+		height: 17px;
+	}	
+}

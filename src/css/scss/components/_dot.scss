@@ -1,0 +1,23 @@
+.dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	display: inline-block;
+	vertical-align: middle;
+
+	&_red {
+		background: linear-gradient(0deg, #F45744, #F45744);
+	}
+
+	&_green {
+		background: #B4E55C;
+	}
+
+	&_navy-blue {
+		background: linear-gradient(212.02deg, #6A5FDD 12.24%, #241D8C 117.57%);
+	}
+
+	&_salmon {
+		background: #F8D9AF;
+	}
+}

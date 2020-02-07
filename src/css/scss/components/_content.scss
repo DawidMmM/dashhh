@@ -1,0 +1,25 @@
+.content {
+	&__title {
+		margin: 2rem 0 2.625rem;
+		padding-left: 30px;
+	}
+}
+
+@media( min-width: 576px ) {
+	.content {
+	    &__title {
+			margin-top: 1rem;
+		}
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.content {
+	    padding-left: 0px;
+		padding-right: 20px;
+
+		&__title {
+			margin-top: 2.4375rem;
+		}
+	}
+}

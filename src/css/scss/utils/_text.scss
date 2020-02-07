@@ -1,0 +1,30 @@
+.text {
+    &-size-1 {
+    	font-size: $font-size-s;
+		line-height: $line-height-xs;
+    }
+
+    &-size-2 {
+		line-height: $line-height-xxs;
+    }
+
+    &-size-3 {
+    	font-size: $font-size-xxs;
+		line-height: $line-height-xxxs;
+    }  
+
+    &-size-4 {
+    	font-size: $font-size-xxxs;
+		line-height: $line-height-xxxxs;
+    }
+
+    &-xs, &-size-2 {
+		font-size: $font-size-xs;
+    }    
+}
+
+.text {
+	&-center {
+		text-align: center;
+	}
+}

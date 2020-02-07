@@ -1,0 +1,28 @@
+.btn {
+	border: 0.8px solid #E1E1E1;
+	border-radius: 4px;
+
+	&_filter {
+		width: 118px;
+		padding: 0.75rem;
+		color: $color-primary;
+		border: 0.8px solid #E1E1E1;
+		border-radius: 4px;
+	}
+
+	&_activated {
+		margin: 0 0 5px;
+		width: 100%;
+		padding: 0.75rem 0;
+		
+	}
+}
+
+@media( min-width: 1271px ) {
+	.btn {
+		&_activated {
+			margin: 0 0 1.875rem 0;
+			flex: 0 0 48%;
+		}
+	}
+}

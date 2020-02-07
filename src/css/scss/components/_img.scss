@@ -1,0 +1,14 @@
+.img {	
+	width: 100%;	
+	display: block;
+
+	&_blur {
+		filter: blur(1.9px);
+	}
+
+	&_custom {
+		margin: 0 auto;
+		max-height: 350px;
+		max-width: 550px;
+	}
+}

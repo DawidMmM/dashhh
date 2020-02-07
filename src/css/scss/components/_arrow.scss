@@ -1,0 +1,14 @@
+.arrow {
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(180deg, #F8D9AF 0%, #FBD199 100%);
+	background: radial-gradient(circle, rgba(248,217,175,1) 57%, rgba(255,255,255,1) 63%);
+	border-radius: 100%;
+
+	&__inner {
+		padding: 3px;
+		border: solid $black;
+		border-width: 0 3px 3px 0;
+		transform: translateX(2px) rotate(135deg);
+	}
+}
